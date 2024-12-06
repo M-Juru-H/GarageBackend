@@ -16,7 +16,7 @@ import com.auca.GarageApplication.Model.LoginRequest;
 import com.auca.GarageApplication.Service.AuthenticationService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
+@CrossOrigin(origins = "https://garagefrontend.onrender.com", allowCredentials = "true")
 public class LoginController {
     
     private final AuthenticationService authenticationService;
